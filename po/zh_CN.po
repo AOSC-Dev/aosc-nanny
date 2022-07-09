@@ -1,0 +1,79 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-09 02:39-0600\n"
+"PO-Revision-Date: \n"
+"Last-Translator: liushuyu <liushuyu@aosc.io>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: nanny.sh:10
+#, fuzzy, sh-format
+msgid ""
+"Your CPU does not support the \"${features}\" feature, therefore ${PKGNAME} "
+"will not work."
+msgstr "你的 CPU 不支持“${features}”特性，因此无法运行 ${PKGNAME} 软件。"
+
+#: nanny.sh:17
+#, sh-format
+msgid "Licensing Terms"
+msgstr "许可条文"
+
+#: nanny.sh:19
+#, sh-format
+msgid ""
+"${PKGDES} may collect your usage data on an opt-out basis, per the <a href=\\"
+"\"${EULA_URL}\\\">${LEGAL_DOC_NAME}</a>.\\nThis default setting does not "
+"comply with our guidelines on telemetry in our packaged software, per "
+"section 5 of the <a href=\\\"https://wiki.aosc.io/developer/packaging/"
+"package-styling-manual/#package-features\\\">AOSC OS Packaging Styling "
+"Manual</a>.\\n"
+msgstr ""
+"根据<a href=\\\"${EULA_URL}\\\">${LEGAL_DOC_NAME}</a>，${PKGDES} 可能会默认收"
+"集您的使用数据和信息。该默认设置违反<a href=\\\"https://wiki.aosc.io/"
+"developer/packaging/package-styling-manual/#package-features\\\">《AOSC OS 软"
+"件包样式指南》</a>第五节关于遥测功能之规定。\\n"
+
+#: nanny.sh:21
+#, sh-format
+msgid ""
+"We offer an Telemetry-free alternative, ${ALT_SOFTWARE} (package: "
+"${ALT_PACKAGE}).\\n"
+msgstr ""
+"我们亦提供不包含遥测功能的替代品，${ALT_SOFTWARE}（软件包名："
+"${ALT_PACKAGE}）。\\n"
+
+#: nanny.sh:23
+#, sh-format
+msgid "Would you like to proceed with launching ${PKGNAME}?"
+msgstr "是否继续启动 ${PKGNAME} ？"
+
+#: nanny.sh:24
+#, sh-format
+msgid ""
+"By selecting \"Yes,\" you agree to the License Terms referenced above and "
+"consent launching an application which violates our software packaging "
+"guidelines."
+msgstr ""
+"如果您选择“继续”，这意味着您同意上述许可条文并知悉上述有关该软件违反我社软件"
+"打包规定的有关事实。"
+
+#: nanny.sh:44
+#, sh-format
+msgid "Proceed? [y/N]"
+msgstr "继续？[y/N]"
+
+#: nanny.sh:46
+#, fuzzy, sh-format
+msgid "Not confirmed."
+msgstr "未选择确认。"
+
+#: nanny.sh:55 nanny.sh:57
+#, sh-format
+msgid "Warning"
+msgstr "警告"
