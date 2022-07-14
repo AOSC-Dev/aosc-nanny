@@ -29,10 +29,20 @@ telemetry_warning() {
 
 show_gui() {
     if [[ -n "${3}" ]]; then
-        zenity --question --window-icon="/usr/share/icons/gnome/48x48/status/dialog-warning.png" --icon-name="dialog-warning" --no-wrap --title "$1" --text "$2\n$3"
+        zenity \
+            --question \
+            --window-icon="/usr/share/icons/breeze/status/48/dialog-warning.svg" \
+            --icon-name="dialog-warning" \
+            --width=640 \
+            --title "$1" \
+            --text "$2\n$3"
         return $?
     else
-        zenity --warning --no-wrap --title "$1" --text "$2"
+        zenity \
+            --warning \
+            --width=640 \
+            --title "$1" \
+            --text "$2"
     fi
 }
 
