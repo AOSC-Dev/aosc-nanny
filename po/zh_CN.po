@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-13 17:18-0700\n"
+"POT-Creation-Date: 2022-07-13 17:26-0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Mingcong Bai <jeffbai@aosc.io>\n"
 "Language-Team: \n"
@@ -68,12 +68,16 @@ msgstr ""
 msgid "Proceed? [y/N]"
 msgstr "继续？[y/N]"
 
-#: nanny.sh:46
+#: nanny.sh:47
 #, sh-format
-msgid "Not confirmed."
-msgstr "您尚未给出答复。"
+msgid "You have chosen not to proceed. Exiting..."
+msgstr "收到否认答复，现将退出..."
 
-#: nanny.sh:55 nanny.sh:57
+#: nanny.sh:56 nanny.sh:58
 #, sh-format
 msgid "Warning"
 msgstr "警告"
+
+#, sh-format
+#~ msgid "Not confirmed."
+#~ msgstr "您尚未给出答复。"
