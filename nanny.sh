@@ -7,7 +7,7 @@ USE_GUI=1
 cpu_baseline_error() {
     if ! grep -P "^flags\s+: .+?\s($1)" /proc/cpuinfo; then
         local features="$1"
-        MESSAGE_TEXT="$(eval_gettext 'Your processor does not support the "${features}" feature, which is required by ${PKGNAME}. This application will now terminate.')"
+        MESSAGE_TEXT="$(eval_gettext 'Your processor does not support the "${features}" feature, which is required by ${PKGNAME}. This application will therefore not function correctly on your device and will now terminate.\n')"
         show
         exit 10
     fi
