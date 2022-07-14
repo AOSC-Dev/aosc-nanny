@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-09 02:39-0600\n"
+"POT-Creation-Date: 2022-07-13 17:18-0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: liushuyu <liushuyu@aosc.io>\n"
 "Language-Team: \n"
@@ -15,8 +15,8 @@ msgstr ""
 #: nanny.sh:10
 #, fuzzy, sh-format
 msgid ""
-"Your CPU does not support the \"${features}\" feature, therefore ${PKGNAME} "
-"will not work."
+"Your processor does not support the \"${features}\" feature, which is "
+"required by ${PKGNAME}. This application will now terminate."
 msgstr "你的 CPU 不支持“${features}”特性，因此无法运行 ${PKGNAME} 软件。"
 
 #: nanny.sh:17
@@ -40,9 +40,9 @@ msgstr ""
 "件包样式指南》</a>第五节关于遥测功能之规定。\\n"
 
 #: nanny.sh:21
-#, sh-format
+#, fuzzy, sh-format
 msgid ""
-"We offer an Telemetry-free alternative, ${ALT_SOFTWARE} (package: "
+"We offer a Telemetry-free alternative, ${ALT_SOFTWARE} (package: "
 "${ALT_PACKAGE}).\\n"
 msgstr ""
 "我们亦提供不包含遥测功能的替代品，${ALT_SOFTWARE}（软件包名："
@@ -54,9 +54,9 @@ msgid "Would you like to proceed with launching ${PKGNAME}?"
 msgstr "是否继续启动 ${PKGNAME} ？"
 
 #: nanny.sh:24
-#, sh-format
+#, fuzzy, sh-format
 msgid ""
-"By selecting \"Yes,\" you agree to the License Terms referenced above and "
+"By selecting \"Yes,\" you agree to the licensing terms referenced above and "
 "consent launching an application which violates our software packaging "
 "guidelines."
 msgstr ""

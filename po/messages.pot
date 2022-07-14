@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-09 02:39-0600\n"
+"POT-Creation-Date: 2022-07-13 17:18-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,8 +20,8 @@ msgstr ""
 #: nanny.sh:10
 #, sh-format
 msgid ""
-"Your CPU does not support the \"${features}\" feature, therefore ${PKGNAME} "
-"will not work."
+"Your processor does not support the \"${features}\" feature, which is "
+"required by ${PKGNAME}. This application will now terminate."
 msgstr ""
 
 #: nanny.sh:17
@@ -43,7 +43,7 @@ msgstr ""
 #: nanny.sh:21
 #, sh-format
 msgid ""
-"We offer an Telemetry-free alternative, ${ALT_SOFTWARE} (package: "
+"We offer a Telemetry-free alternative, ${ALT_SOFTWARE} (package: "
 "${ALT_PACKAGE}).\\n"
 msgstr ""
 
@@ -55,7 +55,7 @@ msgstr ""
 #: nanny.sh:24
 #, sh-format
 msgid ""
-"By selecting \"Yes,\" you agree to the License Terms referenced above and "
+"By selecting \"Yes,\" you agree to the licensing terms referenced above and "
 "consent launching an application which violates our software packaging "
 "guidelines."
 msgstr ""
