@@ -21,7 +21,7 @@ telemetry_warning() {
         MESSAGE_TEXT+="$(eval_gettext 'We offer a Telemetry-free alternative, ${ALT_SOFTWARE} (package: ${ALT_PACKAGE}).\n')"
     fi
     MESSAGE_TEXT+="$(eval_gettext 'Would you like to proceed with launching ${PKGNAME}?')"
-    PROMPT_TEXT="$(eval_gettext 'By selecting "Yes," you agree to the License Terms referenced above and consent launching an application which violates our software packaging guidelines.')"
+    PROMPT_TEXT="$(eval_gettext 'By selecting "Yes," you agree to the licensing terms referenced above and consent launching an application which violates our software packaging guidelines.')"
     show
 }
 
