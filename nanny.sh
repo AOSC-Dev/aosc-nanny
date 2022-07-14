@@ -81,7 +81,7 @@ if [ $# -eq 0 ]; then
     exit 1
 fi
 
-while getopts ":n:a:k:l:d:fc" options; do
+while getopts ":n:a:k:l:d:f:c" options; do
     case "${options}" in
         n)
             export PKGNAME="${OPTARG}"
