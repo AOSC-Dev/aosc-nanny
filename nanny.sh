@@ -75,6 +75,11 @@ telemetry_warning_check() {
     exit 20
 }
 
+if [ $# -eq 0 ]; then
+    usage
+    exit 1
+fi
+
 while getopts ":n:a:k:l:d:fc" options; do
     case "${options}" in
         n)
