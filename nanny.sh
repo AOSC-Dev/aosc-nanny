@@ -64,12 +64,12 @@ usage() {
 
 telemetry_warning_check() {
     mkdir -p "$HOME"/.config/
-    touch "$HOME"/.config/anal_records
-    if grep -F "$PKGNAME" "$HOME"/.config/anal_records > /dev/null; then
+    touch "$HOME"/.config/nanny.db
+    if grep -F "$PKGNAME" "$HOME"/.config/nanny.db > /dev/null; then
         exit 0
     fi
     if telemetry_warning; then
-        echo "$PKGNAME" >> "$HOME"/.config/anal_records
+        echo "$PKGNAME" >> "$HOME"/.config/nanny.db
         exit 0
     fi
     exit 20
