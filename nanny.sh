@@ -16,12 +16,14 @@ cpu_baseline_error() {
 telemetry_warning() {
     GENERIC_LEGAL_DOC_NAME="$(eval_gettext 'Licensing Terms')"
     LEGAL_DOC_NAME="${LEGAL_DOC_NAME:-$GENERIC_LEGAL_DOC_NAME}"
-    MESSAGE_TEXT="$(eval_gettext '${PKGDES} may collect your usage data on an opt-out basis, per the <a href=\"${EULA_URL}\">${LEGAL_DOC_NAME}</a>.\nThis default setting does not comply with our guidelines on telemetry in our packaged software, per section 5 of the <a href=\"https://wiki.aosc.io/developer/packaging/package-styling-manual/#package-features\">AOSC OS Packaging Styling Manual</a>.\n')"
+    MESSAGE_TEXT="$(eval_gettext '${PKGDES} may collect your usage data on an opt-out basis, per the <a href=\"${EULA_URL}\">${LEGAL_DOC_NAME}</a>.\n\nThis default setting does not comply with our guidelines on telemetry in packaged software, per section 5 of the <a href=\"https://wiki.aosc.io/developer/packaging/package-styling-manual/#package-features\">AOSC OS Packaging Styling Manual</a>. ')"
     if [[ -n "${ALT_SOFTWARE}" ]]; then
-        MESSAGE_TEXT+="$(eval_gettext 'We offer a Telemetry-free alternative, ${ALT_SOFTWARE} (package: ${ALT_PACKAGE}).\n')"
+        MESSAGE_TEXT+="$(eval_gettext 'We offer a Telemetry-free alternative, ${ALT_SOFTWARE} (package: ${ALT_PACKAGE}).\n\n')"
+    else
+        MESSAGE_TEXT+="\n\n"
     fi
-    MESSAGE_TEXT+="$(eval_gettext 'Would you like to proceed with launching ${PKGNAME}?')"
-    PROMPT_TEXT="$(eval_gettext 'By selecting "Yes," you agree to the licensing terms referenced above and consent launching an application which violates our software packaging guidelines.')"
+    MESSAGE_TEXT+="$(eval_gettext 'Would you like to proceed with launching ${PKGNAME}?\n')"
+    PROMPT_TEXT="$(eval_gettext 'By selecting "Yes," you agree to the licensing terms referenced above and consent launching an application which violates our packaging guidelines.')"
     show
 }
 
