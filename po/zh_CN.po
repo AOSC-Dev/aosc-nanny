@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-13 17:26-0700\n"
+"POT-Creation-Date: 2022-07-13 18:07-0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Mingcong Bai <jeffbai@aosc.io>\n"
 "Language-Team: \n"
@@ -16,8 +16,11 @@ msgstr ""
 #, sh-format
 msgid ""
 "Your processor does not support the \"${features}\" feature, which is "
-"required by ${PKGNAME}. This application will now terminate."
-msgstr "你的 CPU 不支持“${features}”特性，因此无法运行 ${PKGNAME} 软件。"
+"required by ${PKGNAME}. This application will therefore not function "
+"correctly on your device and will now terminate.\\n"
+msgstr ""
+"您的处理器不支持“${features}”特性，因此无法运行 ${PKGNAME} 应用程序。本应用程"
+"序现将退出。\\n"
 
 #: nanny.sh:17
 #, sh-format
@@ -28,52 +31,52 @@ msgstr "许可条文"
 #, sh-format
 msgid ""
 "${PKGDES} may collect your usage data on an opt-out basis, per the <a href=\\"
-"\"${EULA_URL}\\\">${LEGAL_DOC_NAME}</a>.\\nThis default setting does not "
-"comply with our guidelines on telemetry in our packaged software, per "
-"section 5 of the <a href=\\\"https://wiki.aosc.io/developer/packaging/"
-"package-styling-manual/#package-features\\\">AOSC OS Packaging Styling "
-"Manual</a>.\\n"
+"\"${EULA_URL}\\\">${LEGAL_DOC_NAME}</a>.\\n\\nThis default setting does not "
+"comply with our guidelines on telemetry in packaged software, per section 5 "
+"of the <a href=\\\"https://wiki.aosc.io/developer/packaging/package-styling-"
+"manual/#package-features\\\">AOSC OS Packaging Styling Manual</a>. "
 msgstr ""
 "根据<a href=\\\"${EULA_URL}\\\">${LEGAL_DOC_NAME}</a>，${PKGDES} 可能会默认收"
-"集您的使用数据和信息。该默认设置违反<a href=\\\"https://wiki.aosc.io/"
-"developer/packaging/package-styling-manual/#package-features\\\">《AOSC OS 软"
-"件包样式指南》</a>第五节关于遥测功能之规定。\\n"
+"集您的使用数据和信息。\n"
+"\n"
+"该默认设置违反<a href=\\\"https://wiki.aosc.io/developer/packaging/package-"
+"styling-manual/#package-features\\\">《AOSC OS 软件包样式指南》</a>第五节关于"
+"遥测功能之规定。"
 
 #: nanny.sh:21
 #, sh-format
 msgid ""
 "We offer a Telemetry-free alternative, ${ALT_SOFTWARE} (package: "
-"${ALT_PACKAGE}).\\n"
+"${ALT_PACKAGE}).\\n\\n"
 msgstr ""
 "我们亦提供不包含遥测功能的替代品，${ALT_SOFTWARE}（软件包名："
-"${ALT_PACKAGE}）。\\n"
+"${ALT_PACKAGE}）。\\n\\n"
 
-#: nanny.sh:23
+#: nanny.sh:25
 #, sh-format
-msgid "Would you like to proceed with launching ${PKGNAME}?"
-msgstr "是否继续启动 ${PKGNAME} ？"
+msgid "Would you like to proceed with launching ${PKGNAME}?\\n"
+msgstr "是否继续启动 ${PKGNAME} ？\\n"
 
-#: nanny.sh:24
+#: nanny.sh:26
 #, sh-format
 msgid ""
 "By selecting \"Yes,\" you agree to the licensing terms referenced above and "
-"consent launching an application which violates our software packaging "
-"guidelines."
+"consent launching an application which violates our packaging guidelines."
 msgstr ""
 "如果您选择“继续”，这意味着您同意上述许可条文并知悉上述有关该软件违反我社软件"
 "打包规定的有关事实。"
 
-#: nanny.sh:44
+#: nanny.sh:56
 #, sh-format
 msgid "Proceed? [y/N]"
 msgstr "继续？[y/N]"
 
-#: nanny.sh:47
+#: nanny.sh:59
 #, sh-format
 msgid "You have chosen not to proceed. Exiting..."
 msgstr "收到否认答复，现将退出..."
 
-#: nanny.sh:56 nanny.sh:58
+#: nanny.sh:68 nanny.sh:70
 #, sh-format
 msgid "Warning"
 msgstr "警告"

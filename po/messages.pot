@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-13 17:26-0700\n"
+"POT-Creation-Date: 2022-07-13 18:07-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,8 @@ msgstr ""
 #, sh-format
 msgid ""
 "Your processor does not support the \"${features}\" feature, which is "
-"required by ${PKGNAME}. This application will now terminate."
+"required by ${PKGNAME}. This application will therefore not function "
+"correctly on your device and will now terminate.\\n"
 msgstr ""
 
 #: nanny.sh:17
@@ -33,44 +34,42 @@ msgstr ""
 #, sh-format
 msgid ""
 "${PKGDES} may collect your usage data on an opt-out basis, per the <a href=\\"
-"\"${EULA_URL}\\\">${LEGAL_DOC_NAME}</a>.\\nThis default setting does not "
-"comply with our guidelines on telemetry in our packaged software, per "
-"section 5 of the <a href=\\\"https://wiki.aosc.io/developer/packaging/"
-"package-styling-manual/#package-features\\\">AOSC OS Packaging Styling "
-"Manual</a>.\\n"
+"\"${EULA_URL}\\\">${LEGAL_DOC_NAME}</a>.\\n\\nThis default setting does not "
+"comply with our guidelines on telemetry in packaged software, per section 5 "
+"of the <a href=\\\"https://wiki.aosc.io/developer/packaging/package-styling-"
+"manual/#package-features\\\">AOSC OS Packaging Styling Manual</a>. "
 msgstr ""
 
 #: nanny.sh:21
 #, sh-format
 msgid ""
 "We offer a Telemetry-free alternative, ${ALT_SOFTWARE} (package: "
-"${ALT_PACKAGE}).\\n"
+"${ALT_PACKAGE}).\\n\\n"
 msgstr ""
 
-#: nanny.sh:23
+#: nanny.sh:25
 #, sh-format
-msgid "Would you like to proceed with launching ${PKGNAME}?"
+msgid "Would you like to proceed with launching ${PKGNAME}?\\n"
 msgstr ""
 
-#: nanny.sh:24
+#: nanny.sh:26
 #, sh-format
 msgid ""
 "By selecting \"Yes,\" you agree to the licensing terms referenced above and "
-"consent launching an application which violates our software packaging "
-"guidelines."
+"consent launching an application which violates our packaging guidelines."
 msgstr ""
 
-#: nanny.sh:44
+#: nanny.sh:56
 #, sh-format
 msgid "Proceed? [y/N]"
 msgstr ""
 
-#: nanny.sh:47
+#: nanny.sh:59
 #, sh-format
 msgid "You have chosen not to proceed. Exiting..."
 msgstr ""
 
-#: nanny.sh:56 nanny.sh:58
+#: nanny.sh:68 nanny.sh:70
 #, sh-format
 msgid "Warning"
 msgstr ""
