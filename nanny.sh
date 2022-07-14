@@ -43,7 +43,8 @@ show_cli() {
     if [[ -n "$3" ]]; then
         read -p "$(eval_gettext 'Proceed? [y/N]') " -r RESPONSE
         if [ "$RESPONSE" != "y" ] && [ "$RESPONSE" != "Y" ]; then
-            eval_gettext 'Not confirmed.'
+            echo ''
+            eval_gettext 'You have chosen not to proceed. Exiting...'
             echo ''
             return 20
         fi
