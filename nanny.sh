@@ -111,7 +111,7 @@ while getopts ":n:a:k:l:d:fc" options; do
 done
 
 if [[ -n "${CPU_FEATURE}" ]]; then
-    cpu_baseline_warning "${CPU_FEATURE}"
+    cpu_baseline_error "${CPU_FEATURE}"
 fi
 
 if [[ -n "${PKGDES}" ]]; then
