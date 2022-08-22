@@ -77,7 +77,9 @@ Usage:	$0 [-n PKGNAME] [-a ALT_SOFTWARE] [-k ALT_PACKAGE] [-d PKGDES]
 	[-l EULA_URL] [-f CPU_FEATURE] [-c]
 
 	-n	PKGNAME: Name of the offending package.
+	-a	ALT_SOFTWARE: Name of alternative software (if applicable).
 	-k 	ALT_PACKAGE: Name of alternative package (if applicable).
+		You pass -a with -k.
 	-d	PKGDES: Description of the offending package (usually the
 		"pretty name" for said application).
 	-l	EULA_URL: URL to the licensing terms.
