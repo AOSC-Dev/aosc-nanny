@@ -37,7 +37,7 @@ msgid ""
 "\"${EULA_URL}\\\">${LEGAL_DOC_NAME}</a>.\\n\\nThis default setting does not "
 "comply with our guidelines on telemetry in packaged software, per section 5 "
 "of the <a href=\\\"https://wiki.aosc.io/developer/packaging/package-styling-"
-"manual/#package-features\\\">AOSC OS Packaging Styling Manual</a>. "
+"manual/#package-features\\\">AOSC OS Packaging Styling Manual</a>."
 msgstr ""
 
 #: nanny.sh:21
