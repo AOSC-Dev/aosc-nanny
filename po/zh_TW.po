@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-13 18:07-0700\n"
+"PO-Revision-Date: 2022-08-25 00:30-0700\n"
+"Language-Team: Kaiyang Wu <origincode@aosc.io>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh_TW\n"
+
+#: nanny.sh:10
+#, sh-format
+msgid ""
+"Your processor does not support the \"${features}\" feature, which is "
+"required by ${PKGNAME}. This application will therefore not function "
+"correctly on your device and will now terminate.\\n"
+msgstr ""
+"您的處理器不支援「${features}」特性，因此無法運行 ${PKGNAME} 應用程式。本應用"
+"程式現將結束。\\n"
+
+#: nanny.sh:17
+#, sh-format
+msgid "Licensing Terms"
+msgstr "授權條款"
+
+#: nanny.sh:19
+#, sh-format
+msgid ""
+"${PKGDES} may collect your usage data on an opt-out basis, per the <a href=\\"
+"\"${EULA_URL}\\\">${LEGAL_DOC_NAME}</a>.\\n\\nThis default setting does not "
+"comply with our guidelines on telemetry in packaged software, per section 5 "
+"of the <a href=\\\"https://wiki.aosc.io/developer/packaging/package-styling-"
+"manual/#package-features\\\">AOSC OS Packaging Styling Manual</a>."
+msgstr ""
+"根據<a href=\\\"${EULA_URL}\\\">${LEGAL_DOC_NAME}</a>，${PKGDES} 可能會預設蒐"
+"集您的使用資料和資訊。\n"
+"\n"
+"該預設設定違反<a href=\\\"https://wiki.aosc.io/developer/packaging/package-"
+"styling-manual/#package-features\\\">《AOSC OS 軟體套件樣式指南》</a>第五節關"
+"於遙測功能之規定。"
+
+#: nanny.sh:21
+#, sh-format
+msgid ""
+"We offer a Telemetry-free alternative, ${ALT_SOFTWARE} (package: "
+"${ALT_PACKAGE}).\\n\\n"
+msgstr ""
+"我們亦提供不包含遙測功能的替代品，${ALT_SOFTWARE}（軟體套件名："
+"${ALT_PACKAGE}）。\\n\\n"
+
+#: nanny.sh:25
+#, sh-format
+msgid "Would you like to proceed with launching ${PKGNAME}?\\n"
+msgstr "是否繼續啟動 ${PKGNAME} ？\\n"
+
+#: nanny.sh:26
+#, sh-format
+msgid ""
+"By selecting \"Yes,\" you agree to the licensing terms referenced above and "
+"consent launching an application which violates our packaging guidelines."
+msgstr ""
+"如果您選擇「繼續」，這代表您已同意上述授權條款並知悉上述有關該軟體違反我社軟"
+"體套件打包規定的有關事實。"
+
+#: nanny.sh:56
+#, sh-format
+msgid "Proceed? [y/N]"
+msgstr "繼續？[y/N]"
+
+#: nanny.sh:59
+#, sh-format
+msgid "You have chosen not to proceed. Exiting..."
+msgstr "收到否認答覆，現將結束..."
+
+#: nanny.sh:68 nanny.sh:70
+#, sh-format
+msgid "Warning"
+msgstr "警告"
