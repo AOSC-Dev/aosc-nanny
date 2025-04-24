@@ -37,5 +37,4 @@ Dependencies
 ------------
 
 - Breeze icon theme.
-- w3m.
-- Zenity.
+- Qt5 (>= 5.15.0) + KDE Framework 5 (>= 5.96.0) or Qt6 (>= 6.4.0) + KDE Framework 6 (>= 5.240.0).
