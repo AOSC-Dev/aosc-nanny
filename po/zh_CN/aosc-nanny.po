@@ -1,26 +1,21 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-24 22:37+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2025-04-24 17:51+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: liushuyu <liushuyu@aosc.io>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
 
 #: src/main.cpp:37
 #, kde-format
 msgid "Licensing Terms"
-msgstr ""
+msgstr "许可条文"
 
 #: src/main.cpp:31
 #, kde-format
@@ -31,16 +26,20 @@ msgid ""
 "href=\"https://wiki.aosc.io/developer/packaging/package-styling-manual/"
 "#package-features\">AOSC OS Packaging Styling Manual</a>. "
 msgstr ""
+"根据<a href=\"%2\">%3</a>，%1 可能会默认收集您的使用数据和信息。<br><br>该默"
+"认设置违反<a href=\"https://wiki.aosc.io/developer/packaging/package-styling-"
+"manual/#package-features\">《AOSC OS 软件包样式指南》</a>第五节关于遥测功能之"
+"规定。"
 
 #: src/main.cpp:39
 #, kde-format
 msgid "We offer a Telemetry-free alternative, %1 (package: %2).<br><br>"
-msgstr ""
+msgstr "我们亦提供不包含遥测功能的替代品，%1（软件包名：%2）。<br><br>"
 
 #: src/main.cpp:40
 #, kde-format
 msgid "Would you like to proceed with launching %1?"
-msgstr ""
+msgstr "是否继续启动 %1？"
 
 #: src/main.cpp:48
 #, kde-format
@@ -49,78 +48,71 @@ msgid ""
 "This application will therefore not function correctly on your device and "
 "will now terminate."
 msgstr ""
+"您的处理器不支持“%1”特性，因此无法运行 %2 应用程序。本应用程序现将退出。"
 
-#: src/main.cpp:178
-#, kde-format
-msgid "Continue"
-msgstr ""
-
-#: src/main.cpp:179
-#, kde-format
-msgid "Quit"
-msgstr ""
-
-#: src/main.cpp:187
+#: src/main.cpp:185
 #, kde-format
 msgid "Proceed? [y/N]"
-msgstr ""
+msgstr "继续？[y/N]"
 
-#: src/main.cpp:209
+#: src/main.cpp:207
 #, kde-format
 msgid "You have chosen not to proceed. Exiting..."
-msgstr ""
+msgstr "收到否认答复，现将退出..."
 
-#: src/main.cpp:259
+#: src/main.cpp:257
 #, kde-format
 msgctxt "@title"
 msgid "AOSC Nanny"
 msgstr ""
 
-#: src/main.cpp:261
+#: src/main.cpp:259
 #, kde-format
 msgctxt "@info"
 msgid "Application advisory system for AOSC OS."
 msgstr ""
 
-#: src/main.cpp:267
+#: src/main.cpp:265
 #, kde-format
 msgctxt "@info:shell"
 msgid "Name of the offending package."
 msgstr ""
 
-#: src/main.cpp:267
+#: src/main.cpp:265
 #, kde-format
 msgctxt "@info:shell value name"
 msgid "Package Name"
-msgstr ""
+msgstr "软件包名称"
 
-#: src/main.cpp:271
+#: src/main.cpp:269
 #, kde-format
 msgctxt "@info:shell"
 msgid "Name of alternative software (if applicable)."
-msgstr ""
+msgstr "替代品名称（可选）。"
 
-#: src/main.cpp:272
+#: src/main.cpp:270
 #, kde-format
 msgctxt "@info:shell value name"
 msgid "Alternative Software"
-msgstr ""
+msgstr "替代品"
 
-#: src/main.cpp:276
+#: src/main.cpp:274
 #, kde-format
 msgctxt "@info:shell"
 msgid ""
 "Name of alternative package (if applicable).\n"
 "You pass -a with -k."
 msgstr ""
+"替代软件包名 （可选）。\n"
+"-a 和 -k 选项需要同时指定。"
 
-#: src/main.cpp:277
+#: src/main.cpp:275
 #, kde-format
 msgctxt "@info:shell value name"
 msgid "Alternative Package"
-msgstr ""
+msgstr "替代软件包"
 
-#: src/main.cpp:281
+#: src/main.cpp:279
 #, kde-format
 msgctxt "@info:shell"
 msgid ""
@@ -128,50 +120,62 @@ msgid ""
 "application)."
 msgstr ""
 
-#: src/main.cpp:282
+#: src/main.cpp:280
 #, kde-format
 msgctxt "@info:shell value name"
 msgid "Pretty Name"
 msgstr ""
 
-#: src/main.cpp:285
+#: src/main.cpp:283
 #, kde-format
 msgctxt "@info:shell"
 msgid "URL to the licensing terms."
-msgstr ""
+msgstr "许可协议文本的网页地址。"
 
-#: src/main.cpp:285
+#: src/main.cpp:283
 #, kde-format
 msgctxt "@info:shell value name"
 msgid "EULA_URL"
-msgstr ""
+msgstr "EULA 网址"
 
-#: src/main.cpp:289
+#: src/main.cpp:287
 #, kde-format
 msgctxt "@info:shell"
 msgid "Required processor feature."
-msgstr ""
+msgstr "需要检查的处理器特性。"
 
-#: src/main.cpp:290
+#: src/main.cpp:288
 #, kde-format
 msgctxt "@info:shell value name"
 msgid "CPU Feature"
-msgstr ""
+msgstr "CPU 特性"
 
-#: src/main.cpp:293
+#: src/main.cpp:291
 #, kde-format
 msgctxt "@info:shell"
 msgid "Launch in command line."
-msgstr ""
+msgstr "使用命令行文本模式启动。"
 
-#: src/main.cpp:316 src/main.cpp:336
+#: src/main.cpp:314 src/main.cpp:334
 #, kde-format
 msgid "Warning"
-msgstr ""
+msgstr "警告"
 
-#: src/main.cpp:338
+#: src/main.cpp:178
+#, kde-format
+msgid "Continue"
+msgstr "继续"
+
+#: src/main.cpp:179
+#, kde-format
+msgid "Quit"
+msgstr "退出"
+
+#: src/main.cpp:336
 #, kde-format
 msgid ""
 "By selecting \"Yes,\" you agree to the licensing terms referenced above and "
 "consent launching an application which violates our packaging guidelines."
 msgstr ""
+"如果您选择“继续”，这意味着您同意上述许可条文并知悉上述有关该软件违反我社软件"
+"打包规定的有关事实。"
