@@ -3,15 +3,16 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-26 20:34+0800\n"
-"PO-Revision-Date: 2022-08-25 22:38-0700\n"
-"Last-Translator: \n"
-"Language-Team: Kaiyang Wu <origincode@aosc.io>\n"
+"PO-Revision-Date: 2025-04-26 13:32+0000\n"
+"Last-Translator: Kaiyang Wu <origincode@aosc.io>\n"
+"Language-Team: Chinese (Traditional Han script) <https://weblate.aosc.io/"
+"projects/aosc-nanny/aosc-nanny/zh_Hant/>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.10.3\n"
 
 #: src/main.cpp:35
 #, kde-format
@@ -38,9 +39,9 @@ msgid "We offer a Telemetry-free alternative, %1 (package: %2).<br><br>"
 msgstr "我們亦提供不包含遙測功能的替代品，%1（套件名：%2）。<br><br>"
 
 #: src/main.cpp:38
-#, fuzzy, kde-format
+#, kde-format
 msgid "Would you like to proceed with launching %1?<br>"
-msgstr "是否繼續啟動 %1 ？"
+msgstr "是否繼續啟動 %1？<br>"
 
 #: src/main.cpp:46
 #, kde-format
@@ -54,12 +55,12 @@ msgstr ""
 #: src/main.cpp:176
 #, kde-format
 msgid "Continue"
-msgstr ""
+msgstr "繼續"
 
 #: src/main.cpp:177
 #, kde-format
 msgid "Quit"
-msgstr ""
+msgstr "退出"
 
 #: src/main.cpp:185
 #, kde-format
@@ -75,37 +76,37 @@ msgstr "收到否認答覆，現將結束……"
 #, kde-format
 msgctxt "@title"
 msgid "AOSC OS Application Advisory"
-msgstr ""
+msgstr "安同 OS 應用程式告示"
 
 #: src/main.cpp:259
 #, kde-format
 msgctxt "@info"
 msgid "Application advisory system for AOSC OS."
-msgstr ""
+msgstr "安同 OS 的應用程式告示系統。"
 
 #: src/main.cpp:265
 #, kde-format
 msgctxt "@info:shell"
 msgid "Name of the offending package."
-msgstr ""
+msgstr "存在問題的軟體套件名。"
 
 #: src/main.cpp:265
 #, kde-format
 msgctxt "@info:shell value name"
 msgid "Package Name"
-msgstr ""
+msgstr "軟體套件名稱"
 
 #: src/main.cpp:269
 #, kde-format
 msgctxt "@info:shell"
 msgid "Name of alternative software (if applicable)."
-msgstr ""
+msgstr "替代軟體名稱（可選）。"
 
 #: src/main.cpp:270
 #, kde-format
 msgctxt "@info:shell value name"
 msgid "Alternative Software"
-msgstr ""
+msgstr "替代軟體"
 
 #: src/main.cpp:274
 #, kde-format
@@ -114,12 +115,14 @@ msgid ""
 "Name of alternative package (if applicable).\n"
 "You pass -a with -k."
 msgstr ""
+"替代軟體套件名（可選）。\n"
+"需要同時指定 -a 和 -k 選項。"
 
 #: src/main.cpp:275
 #, kde-format
 msgctxt "@info:shell value name"
 msgid "Alternative Package"
-msgstr ""
+msgstr "替代軟體套件"
 
 #: src/main.cpp:279
 #, kde-format
@@ -127,43 +130,43 @@ msgctxt "@info:shell"
 msgid ""
 "Description of the offending package (usually the \"pretty name\" for said "
 "application)."
-msgstr ""
+msgstr "存在問題的軟體套件描述（通常是應用程式的正式名稱）。"
 
 #: src/main.cpp:280
 #, kde-format
 msgctxt "@info:shell value name"
 msgid "Pretty Name"
-msgstr ""
+msgstr "正式名稱"
 
 #: src/main.cpp:283
 #, kde-format
 msgctxt "@info:shell"
 msgid "URL to the licensing terms."
-msgstr ""
+msgstr "許可協議文本的網頁位址。"
 
 #: src/main.cpp:283
 #, kde-format
 msgctxt "@info:shell value name"
 msgid "EULA_URL"
-msgstr ""
+msgstr "EULA 網址"
 
 #: src/main.cpp:287
 #, kde-format
 msgctxt "@info:shell"
 msgid "Required processor feature."
-msgstr ""
+msgstr "需要檢查的處理單元特性。"
 
 #: src/main.cpp:288
 #, kde-format
 msgctxt "@info:shell value name"
 msgid "CPU Feature"
-msgstr ""
+msgstr "CPU 特性"
 
 #: src/main.cpp:291
 #, kde-format
 msgctxt "@info:shell"
 msgid "Launch in command line."
-msgstr ""
+msgstr "使用指令列文本模式啟動。"
 
 #: src/main.cpp:314 src/main.cpp:334
 #, kde-format
