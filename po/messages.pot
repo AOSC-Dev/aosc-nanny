@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-24 22:37+0800\n"
+"POT-Creation-Date: 2025-04-26 20:34+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,12 +17,12 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/main.cpp:37
+#: src/main.cpp:35
 #, kde-format
 msgid "Licensing Terms"
 msgstr ""
 
-#: src/main.cpp:31
+#: src/main.cpp:29
 #, kde-format
 msgid ""
 "%1 may collect your usage data on an opt-out basis, per the <a "
@@ -32,17 +32,17 @@ msgid ""
 "#package-features\">AOSC OS Packaging Styling Manual</a>. "
 msgstr ""
 
-#: src/main.cpp:39
+#: src/main.cpp:37
 #, kde-format
 msgid "We offer a Telemetry-free alternative, %1 (package: %2).<br><br>"
 msgstr ""
 
-#: src/main.cpp:40
+#: src/main.cpp:38
 #, kde-format
-msgid "Would you like to proceed with launching %1?"
+msgid "Would you like to proceed with launching %1?<br>"
 msgstr ""
 
-#: src/main.cpp:48
+#: src/main.cpp:46
 #, kde-format
 msgid ""
 "Your processor does not support the \"%1\" feature, which is required by %2. "
@@ -50,63 +50,63 @@ msgid ""
 "will now terminate."
 msgstr ""
 
-#: src/main.cpp:178
+#: src/main.cpp:176
 #, kde-format
 msgid "Continue"
 msgstr ""
 
-#: src/main.cpp:179
+#: src/main.cpp:177
 #, kde-format
 msgid "Quit"
 msgstr ""
 
-#: src/main.cpp:187
+#: src/main.cpp:185
 #, kde-format
 msgid "Proceed? [y/N]"
 msgstr ""
 
-#: src/main.cpp:209
+#: src/main.cpp:207
 #, kde-format
 msgid "You have chosen not to proceed. Exiting..."
 msgstr ""
 
-#: src/main.cpp:259
+#: src/main.cpp:257
 #, kde-format
 msgctxt "@title"
-msgid "AOSC Nanny"
+msgid "AOSC OS Application Advisory"
 msgstr ""
 
-#: src/main.cpp:261
+#: src/main.cpp:259
 #, kde-format
 msgctxt "@info"
 msgid "Application advisory system for AOSC OS."
 msgstr ""
 
-#: src/main.cpp:267
+#: src/main.cpp:265
 #, kde-format
 msgctxt "@info:shell"
 msgid "Name of the offending package."
 msgstr ""
 
-#: src/main.cpp:267
+#: src/main.cpp:265
 #, kde-format
 msgctxt "@info:shell value name"
 msgid "Package Name"
 msgstr ""
 
-#: src/main.cpp:271
+#: src/main.cpp:269
 #, kde-format
 msgctxt "@info:shell"
 msgid "Name of alternative software (if applicable)."
 msgstr ""
 
-#: src/main.cpp:272
+#: src/main.cpp:270
 #, kde-format
 msgctxt "@info:shell value name"
 msgid "Alternative Software"
 msgstr ""
 
-#: src/main.cpp:276
+#: src/main.cpp:274
 #, kde-format
 msgctxt "@info:shell"
 msgid ""
@@ -114,13 +114,13 @@ msgid ""
 "You pass -a with -k."
 msgstr ""
 
-#: src/main.cpp:277
+#: src/main.cpp:275
 #, kde-format
 msgctxt "@info:shell value name"
 msgid "Alternative Package"
 msgstr ""
 
-#: src/main.cpp:281
+#: src/main.cpp:279
 #, kde-format
 msgctxt "@info:shell"
 msgid ""
@@ -128,48 +128,48 @@ msgid ""
 "application)."
 msgstr ""
 
-#: src/main.cpp:282
+#: src/main.cpp:280
 #, kde-format
 msgctxt "@info:shell value name"
 msgid "Pretty Name"
 msgstr ""
 
-#: src/main.cpp:285
+#: src/main.cpp:283
 #, kde-format
 msgctxt "@info:shell"
 msgid "URL to the licensing terms."
 msgstr ""
 
-#: src/main.cpp:285
+#: src/main.cpp:283
 #, kde-format
 msgctxt "@info:shell value name"
 msgid "EULA_URL"
 msgstr ""
 
-#: src/main.cpp:289
+#: src/main.cpp:287
 #, kde-format
 msgctxt "@info:shell"
 msgid "Required processor feature."
 msgstr ""
 
-#: src/main.cpp:290
+#: src/main.cpp:288
 #, kde-format
 msgctxt "@info:shell value name"
 msgid "CPU Feature"
 msgstr ""
 
-#: src/main.cpp:293
+#: src/main.cpp:291
 #, kde-format
 msgctxt "@info:shell"
 msgid "Launch in command line."
 msgstr ""
 
-#: src/main.cpp:316 src/main.cpp:336
+#: src/main.cpp:314 src/main.cpp:334
 #, kde-format
 msgid "Warning"
 msgstr ""
 
-#: src/main.cpp:338
+#: src/main.cpp:336
 #, kde-format
 msgid ""
 "By selecting \"Yes,\" you agree to the licensing terms referenced above and "
