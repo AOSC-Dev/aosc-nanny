@@ -254,7 +254,7 @@ int main(int argc, char **argv)
     KLocalizedString::setApplicationDomain("aosc-nanny");
 
     KAboutData aboutData(QStringLiteral("aosc-nanny"),
-                         i18nc("@title", "AOSC Nanny"),
+                         i18nc("@title", "AOSC OS Application Advisory"),
                          QStringLiteral(PROJECT_VERSION),
                          i18nc("@info", "Application advisory system for AOSC OS."),
                          KAboutLicense::LicenseKey::GPL_V2);
