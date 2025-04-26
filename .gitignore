@@ -1,4 +1,5 @@
 # Ignore the following files
+*.mo
 .vscode
 *~
 *.[oa]
