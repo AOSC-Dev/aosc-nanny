@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-26 20:34+0800\n"
-"PO-Revision-Date: 2025-04-26 13:32+0000\n"
+"PO-Revision-Date: 2025-04-26 13:33+0000\n"
 "Last-Translator: Kaiyang Wu <origincode@aosc.io>\n"
 "Language-Team: Chinese (Traditional Han script) <https://weblate.aosc.io/"
 "projects/aosc-nanny/aosc-nanny/zh_Hant/>\n"
@@ -49,8 +49,7 @@ msgid ""
 "Your processor does not support the \"%1\" feature, which is required by %2. "
 "This application will therefore not function correctly on your device and "
 "will now terminate."
-msgstr ""
-"您的處理器不支援「%1」特性，因此無法執行 %2 應用程式。本應用程式現將結束。"
+msgstr "您的處理單元不支援「%1」特性，因此無法執行 %2 應用程式。本應用程式現將結束。"
 
 #: src/main.cpp:176
 #, kde-format
