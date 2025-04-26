@@ -8,7 +8,7 @@ if (POLICY CMP0063)
   cmake_policy(SET CMP0063 NEW)
 endif()
 
-project(aosc-nanny VERSION 0.0.0)
+project(aosc-nanny VERSION 0.2.0)
 
 set(QT_MIN_VERSION "5.8.0")
 set(KF_MIN_VERSION "5.96.0")
