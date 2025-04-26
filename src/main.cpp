@@ -35,7 +35,7 @@ static QString formatTelemetryWarning(const QString &name,
             legalDocName.isEmpty() ? i18n("Licensing Terms") : legalDocName)
         % (altSoftware.isEmpty() ? QStringLiteral("<br><br>")
                                  : i18n("We offer a Telemetry-free alternative, %1 (package: %2).<br><br>", altSoftware, altPackage))
-        % i18n("Would you like to proceed with launching %1?", name);
+        % i18n("Would you like to proceed with launching %1?<br>", name);
 
     return promptText;
 }
